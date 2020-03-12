@@ -78,6 +78,9 @@ public class CityList {
         return cities.size();
     }
     public int twoCities(){
-        return 0;
+        CityList cityList = new CityList();
+        cityList.add(new City("Edmonton", "Alberta"));
+        cityList.add(new City("Calgary", "Alberta"));
+        return cityList.countCities();
     }
 }
