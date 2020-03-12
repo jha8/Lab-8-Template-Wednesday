@@ -93,4 +93,9 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+    @Test
+    void checkTwoCities(){
+        CityList cityList = new CityList();
+        assertEquals(2, cityList.twoCities());
+    }
 }
